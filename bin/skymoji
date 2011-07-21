@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+skype_path = ARGV[0] || "/Applications/Skype.app"
+unless File.exist?(skype_path)
+  $stderr.puts "Couldn't find Skype at #{skype_path}. Try a different directory."
+end
+
+require 'skymoji'
+require 'pathname'
+Skymoji.update_emoticons(Pathname.new(skype_path))

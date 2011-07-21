@@ -1,0 +1,14 @@
+[{
+  name: "CramerDev",
+  id: "cramerdev",
+  keys: ["(cramerdev)", "(c)"],
+  animated: ["cramerdev.gif", "c9a070755507442fe95bf0a5c5434421"],
+  still: ["cramerdev.png", "84ef241e4b61cba5226ddb8385d3d14c"]
+},
+{
+  name: "Nyan Cat",
+  id: "nyan",
+  keys: ["(nyancat)", "(nyan)"],
+  animated: ["nyancat.gif", "9d14a9d386bfe1be1171c433da1bb15d"],
+  still: ["nyancat.png", "66b90db8648161541cf174193d892426"]
+}]
